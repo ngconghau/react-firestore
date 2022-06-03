@@ -1,0 +1,140 @@
+.container{
+  display: flex;
+}
+.wrapper_container{
+  width: 50%;
+  margin: 0 auto;
+}
+.write_post_container {
+  width: 100%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 10px;
+  columns: #626262;
+  margin: 0 auto;
+}
+.write_post_container form textarea {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  resize: none;
+}
+.user_profile {
+  display: flex;
+  align-items: center;
+}
+
+.user_profile span {
+  position: relative;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post_input_container {
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.post_input_container textarea, .post_input_container input{
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  resize: none;
+}
+.post_input_container textarea:nth-child(1) {
+  font-weight: bold;
+}
+.post_input_container textarea:nth-child(2) {
+  border-bottom: 1px solid #ccc;
+}
+
+.post_input_container input {
+  display: none;
+  margin-bottom: 15px;
+}
+.add_post_link {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-evenly;
+}
+.add_post_link div {
+  display: flex;
+  align-items: center;
+  color: #626262;
+  font-size: 12px;
+  cursor: pointer;
+}
+.add_post_link div  span {
+  position: relative;
+  height: 20px;
+  width: 20px;
+}
+
+.add_post_link button {
+  background: transparent;
+  border: 1px solid #9a9a9a;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  color: #0f1111;
+  cursor: pointer;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  text-align: center;
+}
+
+.add_post_link button:hover {
+  background-color: #f7fafa;
+}
+
+.add_post_link button:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  outline: 0;
+}
+
+.post_container {
+  width: 100%;
+  background: rgb(238, 238, 238);
+  border-radius: 6px;
+  padding: 20px;
+  color: #626262;
+  margin: 20px 0;
+}
+.user_profile {
+  display: flex;
+  align-items: center;
+}
+.user_profile span {
+  position: relative;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  font-size: 13px;
+  color: #9a9a9a;
+}
+.post_text {
+  font-size: 15px;
+  margin: 15px 0;
+}
+.post_text img {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+.post_text p{
+  padding: 5px;
+}
+.post_text p:nth-child(1) {
+  font-weight: bold;
+}
+
+.post_row {
+  background: #fff;
+}
+
+

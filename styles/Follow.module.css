@@ -1,0 +1,42 @@
+.follow_container{
+  flex-basis: 25%;
+  
+}
+
+.search_container  { 
+  width: 90%;
+  margin: 10px auto;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+.search_container input:nth-child(1){
+  padding: 10px;
+  flex-grow: 8;
+}
+.search_container input:nth-child(2){
+  padding: 10px;
+  flex-grow: 2;
+}
+
+.users_container{
+  width: 80%;
+  margin: 10px auto;
+}
+
+.users_container .user_follow{
+  background: #cfcccc;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+.users_container .user_follow p{
+  padding: 15px;
+}
+.users_container .user_follow button{
+ 
+  padding: 15px;
+}

@@ -1,0 +1,86 @@
+.container nav {
+  background: #74b4ec;
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container nav h2 {
+  color: #fff;
+}
+
+.container nav button {
+  width: 86px;
+  padding: 8px 0;
+  background: #3a2b58;
+}
+
+.container nav {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #4190f7;
+  padding: 5px 5%;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  position: relative;
+  width: 160px;
+  height: 41px;
+  margin-right: 45px;
+  cursor: pointer;
+}
+.nav_left,
+.nav_right {
+  display: flex;
+  align-items: center;
+}
+.nav_right a {
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: bold ;
+}
+.nav_left ul li {
+  display: inline;
+}
+
+.nav_user_icon {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.nav_user_icon a span{
+  border-radius: 50%;
+}
+
+.search_box {
+  background: #efefef;
+  width: 350px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.search_box span {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.search_box input {
+  width: 100%;
+  background: transparent;
+  padding: 10px;
+  outline: none;
+  border: 0;
+}

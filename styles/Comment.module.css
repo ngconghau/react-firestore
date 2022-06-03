@@ -1,0 +1,33 @@
+.wirte_comment_container {
+  width: 100%;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+.wirte_comment_container textarea {
+  padding: 10px;
+  flex-grow: 8;
+  resize: none;
+}
+.wirte_comment_container input {
+  margin-left: 10px;
+  padding: 10px;
+  flex-grow: 2;
+}
+
+.comment_content {
+  margin-top: 10px;
+  padding: 15px;
+  background: rgb(231, 231, 231);
+}
+
+.comment_content .title_content{
+  margin-bottom: 15px;
+}
+.comment_content p{
+  padding: 10px;
+}
+.title_content span {
+  color: #9a9a9a;
+  font-size: 12px;
+}
